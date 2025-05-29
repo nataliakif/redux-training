@@ -13,7 +13,7 @@ export const Task = ({ task }) => {
         checked={task.completed}
         onChange={() => dispatch(toggleTask(task.id))}
       />
-      <p className={css.text}>{task.text}</p>
+      <p className={css.text}>{task.title}</p>
       <button onClick={() => dispatch(deleteTask(task.id))} className={css.btn}>
         <MdClose size={24} />
       </button>
