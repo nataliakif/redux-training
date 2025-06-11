@@ -3,7 +3,7 @@ import { AppBar } from "components/AppBar/AppBar";
 import { TaskForm } from "components/TaskForm/TaskForm";
 import { TaskList } from "components/TaskList/TaskList";
 
-export const App = () => {
+const App = () => {
   return (
     <Layout>
       <AppBar />
@@ -12,3 +12,4 @@ export const App = () => {
     </Layout>
   );
 };
+export default App;
